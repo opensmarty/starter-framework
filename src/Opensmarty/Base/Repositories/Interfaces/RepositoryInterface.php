@@ -1,7 +1,7 @@
 <?php
 /**
- * Created for someline-starter.
- * User: Libern
+ * Created for opensmarty-starter.
+ * User: Nicolas Wan
  */
 
 namespace Opensmarty\Base\Repositories\Interfaces;

@@ -4,13 +4,13 @@
  * User: Nicolas Wan
  */
 
-namespace Someline\Auth;
+namespace Opensmarty\Auth;
 
 trait AuthUserHelpers
 {
 
     /**
-     * @return \Someline\Models\Foundation\User
+     * @return \Opensmarty\Models\Foundation\User
      */
     public function getAuthUser()
     {
