@@ -1,13 +1,13 @@
 <?php
 
-namespace Someline\Presenters;
+namespace Opensmarty\Presenters;
 
-use Someline\Transformers\BasicTransformer;
+use Opensmarty\Transformers\BasicTransformer;
 
 /**
  * Class BasicPresenter
  *
- * @package namespace Someline\Presenters;
+ * @package namespace Opensmarty\Presenters;
  */
 class BasicPresenter extends BasePresenter
 {

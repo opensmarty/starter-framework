@@ -1,11 +1,11 @@
 <?php
-namespace Someline\Repository\Generators;
+namespace Opensmarty\Repository\Generators;
 
 use Exception;
 
 /**
  * Class FileAlreadyExistsException
- * @package Someline\Repository\Generators
+ * @package Opensmarty\Repository\Generators
  */
 class FileAlreadyExistsException extends Exception
 {

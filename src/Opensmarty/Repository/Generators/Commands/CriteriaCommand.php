@@ -1,10 +1,10 @@
 <?php
 
-namespace Someline\Repository\Generators\Commands;
+namespace Opensmarty\Repository\Generators\Commands;
 
 use Illuminate\Console\Command;
-use Someline\Repository\Generators\CriteriaGenerator;
-use Someline\Repository\Generators\FileAlreadyExistsException;
+use Opensmarty\Repository\Generators\CriteriaGenerator;
+use Opensmarty\Repository\Generators\FileAlreadyExistsException;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputOption;
 

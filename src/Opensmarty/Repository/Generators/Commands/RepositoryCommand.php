@@ -1,13 +1,13 @@
 <?php
-namespace Someline\Repository\Generators\Commands;
+namespace Opensmarty\Repository\Generators\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Collection;
-use Someline\Repository\Generators\FileAlreadyExistsException;
-use Someline\Repository\Generators\MigrationGenerator;
-use Someline\Repository\Generators\ModelGenerator;
-use Someline\Repository\Generators\RepositoryEloquentGenerator;
-use Someline\Repository\Generators\RepositoryInterfaceGenerator;
+use Opensmarty\Repository\Generators\FileAlreadyExistsException;
+use Opensmarty\Repository\Generators\MigrationGenerator;
+use Opensmarty\Repository\Generators\ModelGenerator;
+use Opensmarty\Repository\Generators\RepositoryEloquentGenerator;
+use Opensmarty\Repository\Generators\RepositoryInterfaceGenerator;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputOption;
 

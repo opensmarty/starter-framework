@@ -1,10 +1,10 @@
 <?php
 /**
- * Created for someline-starter.
- * User: Libern
+ * Created for opensmarty-starter.
+ * User: Nicolas Wan
  */
 
-namespace Someline\Api\Middleware;
+namespace Opensmarty\Api\Middleware;
 
 use Closure;
 use Dingo\Api\Exception\ResourceException;

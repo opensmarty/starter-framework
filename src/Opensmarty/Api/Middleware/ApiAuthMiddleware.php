@@ -1,19 +1,19 @@
 <?php
 /**
- * Created for someline-starter.
- * User: Libern
+ * Created for opensmarty-starter.
+ * User: Nicolas Wan
  */
 
-namespace Someline\Api\Middleware;
+namespace Opensmarty\Api\Middleware;
 
 
 use Closure;
 use Dingo\Api\Auth\Auth as Authentication;
 use Dingo\Api\Routing\Router;
 use League\OAuth2\Server\Exception\AccessDeniedException;
-use Someline\Api\Auth\Provider\OAuth2;
-use Someline\Events\User\UserLoggedInEvent;
-use Someline\Models\Foundation\User;
+use Opensmarty\Api\Auth\Provider\OAuth2;
+use Opensmarty\Events\User\UserLoggedInEvent;
+use Opensmarty\Models\Foundation\User;
 
 class ApiAuthMiddleware
 {

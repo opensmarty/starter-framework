@@ -1,6 +1,6 @@
 <?php
 
-namespace Someline\Repository\Generators\Commands;
+namespace Opensmarty\Repository\Generators\Commands;
 
 use File;
 use Illuminate\Console\Command;

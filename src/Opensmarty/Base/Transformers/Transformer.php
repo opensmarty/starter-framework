@@ -1,14 +1,14 @@
 <?php
 /**
- * Created for someline-starter.
- * User: Libern
+ * Created for opensmarty-starter.
+ * User: Nicolas Wan
  */
 
-namespace Someline\Base\Transformers;
+namespace Opensmarty\Base\Transformers;
 
 
 use League\Fractal\TransformerAbstract;
-use Someline\Models\BaseModel;
+use Opensmarty\Models\BaseModel;
 
 class Transformer extends TransformerAbstract
 {

@@ -1,14 +1,14 @@
 <?php
 /**
- * Created for someline-starter.
- * User: Libern
+ * Created for opensmarty-starter.
+ * User: Nicolas Wan
  */
 
-namespace Someline\Model\Interfaces;
+namespace Opensmarty\Model\Interfaces;
 
 
 use Illuminate\Database\Eloquent\Model;
-use Someline\Observers\BaseModelObserver;
+use Opensmarty\Observers\BaseModelObserver;
 
 interface BaseModelEventsInterface
 {

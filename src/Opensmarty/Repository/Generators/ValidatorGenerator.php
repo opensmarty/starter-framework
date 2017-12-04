@@ -1,12 +1,12 @@
 <?php
-namespace Someline\Repository\Generators;
+namespace Opensmarty\Repository\Generators;
 
-use Someline\Repository\Generators\Migrations\RulesParser;
-use Someline\Repository\Generators\Migrations\SchemaParser;
+use Opensmarty\Repository\Generators\Migrations\RulesParser;
+use Opensmarty\Repository\Generators\Migrations\SchemaParser;
 
 /**
  * Class ValidatorGenerator
- * @package Someline\Repository\Generators
+ * @package Opensmarty\Repository\Generators
  */
 class ValidatorGenerator extends Generator
 {

@@ -1,6 +1,10 @@
 <?php
+/**
+ * Created for opensmarty-starter.
+ * User: Nicolas Wan
+ */
 
-namespace Someline\Api\Middleware;
+namespace Opensmarty\Api\Middleware;
 
 use Closure;
 use Tymon\JWTAuth\Middleware\BaseMiddleware;

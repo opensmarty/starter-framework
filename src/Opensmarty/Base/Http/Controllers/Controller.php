@@ -1,17 +1,17 @@
 <?php
 /**
- * Created for someline-starter.
- * User: Libern
+ * Created for opensmarty-starter.
+ * User: Nicolas Wan
  */
 
-namespace Someline\Base\Http\Controllers;
+namespace Opensmarty\Base\Http\Controllers;
 
 
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 use Illuminate\Foundation\Bus\DispatchesJobs;
 use Illuminate\Foundation\Validation\ValidatesRequests;
 use Illuminate\Routing\Controller as BaseController;
-use Someline\Auth\AuthUserHelpers;
+use Opensmarty\Auth\AuthUserHelpers;
 
 abstract class Controller extends BaseController
 {

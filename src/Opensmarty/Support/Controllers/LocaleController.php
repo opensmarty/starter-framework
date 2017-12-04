@@ -1,13 +1,13 @@
-<?php namespace Someline\Support\Controllers;
+<?php namespace Opensmarty\Support\Controllers;
 
 /**
- * Created for someline-starter.
- * User: Libern
+ * Created for opensmarty-starter.
+ * User: Nicolas Wan
  */
 
 use Carbon\Carbon;
 use Illuminate\Http\Request;
-use Someline\Base\Http\Controllers\Controller;
+use Opensmarty\Base\Http\Controllers\Controller;
 
 class LocaleController extends Controller
 {
@@ -19,7 +19,7 @@ class LocaleController extends Controller
      */
     public function getLocaleJs(Request $request, $locale)
     {
-        $content = 'window.Someline.locales = ' . json_encode(trans('app', [], $locale));
+        $content = 'window.opensmarty.locales = ' . json_encode(trans('app', [], $locale));
         $response = response()->make($content);
         $response->header('Content-Type', 'application/javascript');
         $response->setPublic()
@@ -42,7 +42,7 @@ class LocaleController extends Controller
         }
 
         // store in session
-        session(['someline-locale' => $locale]);
+        session(['opensmarty-locale' => $locale]);
 
         // check if has redirect url
         $redirect_url = '/';

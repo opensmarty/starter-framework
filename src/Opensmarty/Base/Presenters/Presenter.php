@@ -1,10 +1,10 @@
 <?php
 /**
- * Created for someline-starter.
- * User: Libern
+ * Created for opensmarty-starter.
+ * User: Nicolas Wan
  */
 
-namespace Someline\Base\Presenters;
+namespace Opensmarty\Base\Presenters;
 
 
 use Illuminate\Support\Collection;

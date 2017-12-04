@@ -1,14 +1,14 @@
 <?php
 
-namespace Someline\Repository\Generators;
+namespace Opensmarty\Repository\Generators;
 
-use Someline\Repository\Generators\Migrations\NameParser;
-use Someline\Repository\Generators\Migrations\SchemaParser;
-use Symfony\Component\HttpFoundation\File\Exception\FileNotFoundException;
+use Opensmarty\Repository\Generators\Migrations\NameParser;
+use Opensmarty\Repository\Generators\Migrations\SchemaParser;
+use Opensmarty\Component\HttpFoundation\File\Exception\FileNotFoundException;
 
 /**
  * Class MigrationGenerator
- * @package Someline\Repository\Generators
+ * @package Opensmarty\Repository\Generators
  */
 class MigrationGenerator extends Generator
 {

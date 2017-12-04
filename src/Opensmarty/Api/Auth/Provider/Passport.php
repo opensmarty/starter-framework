@@ -1,10 +1,10 @@
 <?php
 /**
- * Created for someline-starter.
- * User: Milkmeowo
+ * Created for opensmarty-starter.
+ * User: Nicolas Wan
  */
 
-namespace Someline\Api\Auth\Provider;
+namespace Opensmarty\Api\Auth\Provider;
 
 use Dingo\Api\Routing\Route;
 use Illuminate\Http\Request;

@@ -1,5 +1,5 @@
 <?php
-namespace Someline\Repository\Generators\Commands;
+namespace Opensmarty\Repository\Generators\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Collection;

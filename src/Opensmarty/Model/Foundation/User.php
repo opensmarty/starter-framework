@@ -1,10 +1,10 @@
 <?php
 /**
- * Created for someline-starter.
- * User: Libern
+ * Created for opensmarty-starter.
+ * User: Nicolas Wan
  */
 
-namespace Someline\Model\Foundation;
+namespace Opensmarty\Model\Foundation;
 
 use Illuminate\Auth\Authenticatable;
 use Illuminate\Auth\Passwords\CanResetPassword;
@@ -16,8 +16,8 @@ use Illuminate\Notifications\Notifiable;
 use Laravel\Passport\HasApiTokens;
 use Prettus\Repository\Contracts\Transformable;
 use Prettus\Repository\Traits\TransformableTrait;
-use Someline\Base\Models\BaseModel;
-use Someline\Model\Interfaces\BaseModelEventsInterface;
+use Opensmarty\Base\Models\BaseModel;
+use Opensmarty\Model\Interfaces\BaseModelEventsInterface;
 
 class User extends BaseModel implements BaseModelEventsInterface,
     AuthenticatableContract,

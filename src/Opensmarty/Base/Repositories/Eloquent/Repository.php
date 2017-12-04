@@ -1,10 +1,10 @@
 <?php
 /**
- * Created for someline-starter.
- * User: Libern
+ * Created for opensmarty-starter.
+ * User: Nicolas Wan
  */
 
-namespace Someline\Base\Repositories\Eloquent;
+namespace Opensmarty\Base\Repositories\Eloquent;
 
 
 use Illuminate\Database\Eloquent\Model;
@@ -12,9 +12,9 @@ use Illuminate\Database\Eloquent\Relations\Relation;
 use Prettus\Repository\Eloquent\BaseRepository;
 use Prettus\Repository\Exceptions\RepositoryException;
 use Prettus\Validator\Contracts\ValidatorInterface;
-use Someline\Base\Presenters\Presenter;
-use Someline\Base\Repositories\Interfaces\RepositoryInterface;
-use Someline\Repositories\Criteria\AuthUserCriteria;
+use Opensmarty\Base\Presenters\Presenter;
+use Opensmarty\Base\Repositories\Interfaces\RepositoryInterface;
+use Opensmarty\Repositories\Criteria\AuthUserCriteria;
 
 abstract class Repository extends BaseRepository implements RepositoryInterface
 {

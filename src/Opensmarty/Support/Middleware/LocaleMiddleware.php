@@ -1,6 +1,6 @@
 <?php
 
-namespace Someline\Support\Middleware;
+namespace Opensmarty\Support\Middleware;
 
 use Carbon\Carbon;
 use Closure;
@@ -25,7 +25,7 @@ class LocaleMiddleware
         $locale = LaravelLocalization::getCurrentLocale();
 
         // 2. check from session
-        $sessionLocale = session('someline-locale');
+        $sessionLocale = session('opensmarty-locale');
         if (!empty($sessionLocale)) {
             // if supported
             if (is_array($supportedLocales) && isset($supportedLocales[$sessionLocale])) {

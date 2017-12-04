@@ -4,7 +4,7 @@
  * User: Libern
  */
 
-namespace Someline\Base\Repositories\Interfaces;
+namespace Opensmarty\Base\Repositories\Interfaces;
 
 use Illuminate\Database\Eloquent\Model;
 use Prettus\Repository\Contracts\RepositoryInterface as BaseRepositoryInterface;

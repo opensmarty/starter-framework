@@ -1,13 +1,13 @@
 <?php
 
-namespace Someline\Repositories;
+namespace Opensmarty\Repositories;
 
 
 use Illuminate\Pagination\LengthAwarePaginator;
 use Illuminate\Support\Collection;
 use Prettus\Repository\Contracts\Presentable;
 use Prettus\Repository\Contracts\PresenterInterface;
-use Someline\Presenters\BasicPresenter;
+use Opensmarty\Presenters\BasicPresenter;
 
 class PresenterRepository
 {

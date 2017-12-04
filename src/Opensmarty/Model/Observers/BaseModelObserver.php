@@ -1,14 +1,14 @@
 <?php
 /**
- * Created for someline-starter.
- * User: Libern
+ * Created for opensmarty-starter.
+ * User: Nicolas Wan
  */
 
-namespace Someline\Model\Observers;
+namespace Opensmarty\Model\Observers;
 
 
-use Someline\Model\Interfaces\BaseModelEventsInterface;
-use Someline\Model\Traits\BaseModelEvents;
+use Opensmarty\Model\Interfaces\BaseModelEventsInterface;
+use Opensmarty\Model\Traits\BaseModelEvents;
 
 /**
  * Whenever a new model is saved for the first time,

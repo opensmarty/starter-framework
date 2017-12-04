@@ -1,9 +1,9 @@
 <?php
-namespace Someline\Repository\Generators;
+namespace Opensmarty\Repository\Generators;
 
 /**
  * Class BindingsGenerator
- * @package Someline\Repository\Generators
+ * @package Opensmarty\Repository\Generators
  */
 class BindingsGenerator extends Generator
 {

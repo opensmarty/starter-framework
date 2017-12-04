@@ -1,9 +1,9 @@
 <?php
-namespace Someline\Repository\Generators;
+namespace Opensmarty\Repository\Generators;
 
 /**
  * Class PresenterGenerator
- * @package Someline\Repository\Generators
+ * @package Opensmarty\Repository\Generators
  */
 
 class PresenterGenerator extends Generator

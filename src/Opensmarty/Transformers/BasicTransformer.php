@@ -1,13 +1,13 @@
 <?php
 /**
- * Created for someline-starter.
- * User: Libern
+ * Created for opensmarty-starter.
+ * User: Nicolas Wan
  */
 
-namespace Someline\Transformers;
+namespace Opensmarty\Transformers;
 
 
-use Someline\Base\Transformers\Transformer;
+use Opensmarty\Base\Transformers\Transformer;
 
 class BasicTransformer extends Transformer
 {

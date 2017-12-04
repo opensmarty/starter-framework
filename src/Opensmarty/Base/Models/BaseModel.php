@@ -1,19 +1,19 @@
 <?php
 /**
- * Created for someline-starter.
- * User: Libern
+ * Created for opensmarty-starter.
+ * User: Nicolas Wan
  */
 
-namespace Someline\Base\Models;
+namespace Opensmarty\Base\Models;
 
 
 use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Model;
 use Prettus\Repository\Presenter\ModelFractalPresenter;
-use Someline\Model\Foundation\User;
-use Someline\Model\Interfaces\BaseModelEventsInterface;
-use Someline\Model\Interfaces\FriendStatusInterface;
-use Someline\Model\Traits\BaseModelEvents;
+use Opensmarty\Model\Foundation\User;
+use Opensmarty\Model\Interfaces\BaseModelEventsInterface;
+use Opensmarty\Model\Interfaces\FriendStatusInterface;
+use Opensmarty\Model\Traits\BaseModelEvents;
 
 class BaseModel extends Model implements BaseModelEventsInterface
 {

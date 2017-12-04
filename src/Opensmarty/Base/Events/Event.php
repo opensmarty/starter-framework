@@ -1,6 +1,10 @@
 <?php
+/**
+ * Created for opensmarty-starter.
+ * User: Nicolas Wan
+ */
 
-namespace Someline\Base\Events;
+namespace Opensmarty\Base\Events;
 
 abstract class Event
 {

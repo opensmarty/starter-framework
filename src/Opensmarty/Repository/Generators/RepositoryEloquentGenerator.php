@@ -1,11 +1,11 @@
 <?php
-namespace Someline\Repository\Generators;
+namespace Opensmarty\Repository\Generators;
 
-use Someline\Repository\Generators\Migrations\SchemaParser;
+use Opensmarty\Repository\Generators\Migrations\SchemaParser;
 
 /**
  * Class RepositoryEloquentGenerator
- * @package Someline\Repository\Generators
+ * @package Opensmarty\Repository\Generators
  */
 class RepositoryEloquentGenerator extends Generator
 {

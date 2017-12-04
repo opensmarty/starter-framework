@@ -1,6 +1,10 @@
 <?php
+/**
+ * Created for opensmarty-starter.
+ * User: Nicolas Wan
+ */
 
-namespace Someline\Api\Foundation\Validation;
+namespace Opensmarty\Api\Foundation\Validation;
 
 use Dingo\Api\Exception\ResourceException;
 use Illuminate\Contracts\Validation\Factory;

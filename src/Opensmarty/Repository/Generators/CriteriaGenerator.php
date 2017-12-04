@@ -1,10 +1,10 @@
 <?php
 
-namespace Someline\Repository\Generators;
+namespace Opensmarty\Repository\Generators;
 
 /**
  * Class CriteriaGenerator
- * @package Someline\Repository\Generators
+ * @package Opensmarty\Repository\Generators
  */
 class CriteriaGenerator extends Generator
 {

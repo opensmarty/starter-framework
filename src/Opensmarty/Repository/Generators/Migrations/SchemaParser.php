@@ -1,11 +1,11 @@
 <?php
-namespace Someline\Repository\Generators\Migrations;
+namespace Opensmarty\Repository\Generators\Migrations;
 
 use Illuminate\Contracts\Support\Arrayable;
 
 /**
  * Class SchemaParser
- * @package Someline\Repository\Generators\Migrations
+ * @package Opensmarty\Repository\Generators\Migrations
  */
 class SchemaParser implements Arrayable
 {

@@ -1,11 +1,11 @@
 <?php
-namespace Someline\Repository\Generators\Commands;
+namespace Opensmarty\Repository\Generators\Commands;
 
 use File;
 use Illuminate\Console\Command;
 use Illuminate\Support\Collection;
-use Someline\Repository\Generators\BindingsGenerator;
-use Someline\Repository\Generators\FileAlreadyExistsException;
+use Opensmarty\Repository\Generators\BindingsGenerator;
+use Opensmarty\Repository\Generators\FileAlreadyExistsException;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputOption;
 

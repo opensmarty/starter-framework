@@ -1,11 +1,11 @@
 <?php
-namespace Someline\Repository\Providers;
+namespace Opensmarty\Repository\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
 /**
  * Class RepositoryServiceProvider
- * @package Someline\Repository\Providers
+ * @package Opensmarty\Repository\Providers
  */
 class RepositoryServiceProvider extends ServiceProvider
 {
@@ -37,14 +37,14 @@ class RepositoryServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->commands('Someline\Repository\Generators\Commands\RepositoryCommand');
-        $this->commands('Someline\Repository\Generators\Commands\TransformerCommand');
-        $this->commands('Someline\Repository\Generators\Commands\PresenterCommand');
-        $this->commands('Someline\Repository\Generators\Commands\EntityCommand');
-        $this->commands('Someline\Repository\Generators\Commands\ValidatorCommand');
-        $this->commands('Someline\Repository\Generators\Commands\ControllerCommand');
-        $this->commands('Someline\Repository\Generators\Commands\BindingsCommand');
-        $this->commands('Someline\Repository\Generators\Commands\CriteriaCommand');
+        $this->commands('Opensmarty\Repository\Generators\Commands\RepositoryCommand');
+        $this->commands('Opensmarty\Repository\Generators\Commands\TransformerCommand');
+        $this->commands('Opensmarty\Repository\Generators\Commands\PresenterCommand');
+        $this->commands('Opensmarty\Repository\Generators\Commands\EntityCommand');
+        $this->commands('Opensmarty\Repository\Generators\Commands\ValidatorCommand');
+        $this->commands('Opensmarty\Repository\Generators\Commands\ControllerCommand');
+        $this->commands('Opensmarty\Repository\Generators\Commands\BindingsCommand');
+        $this->commands('Opensmarty\Repository\Generators\Commands\CriteriaCommand');
     }
 
 

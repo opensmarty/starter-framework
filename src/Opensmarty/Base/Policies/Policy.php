@@ -1,9 +1,13 @@
 <?php
+/**
+ * Created for opensmarty-starter.
+ * User: Nicolas Wan
+ */
 
-namespace Someline\Base\Policies;
+namespace Opensmarty\Base\Policies;
 
-use Someline\Base\Models\BaseModel;
-use Someline\Model\Foundation\User;
+use Opensmarty\Base\Models\BaseModel;
+use Opensmarty\Model\Foundation\User;
 
 abstract class Policy
 {

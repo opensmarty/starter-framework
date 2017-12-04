@@ -1,14 +1,14 @@
 <?php
 /**
- * Created for someline-starter.
- * User: Libern
+ * Created for opensmarty-starter.
+ * User: Nicolas Wan
  */
 
-namespace Someline\Model\Traits;
+namespace Opensmarty\Model\Traits;
 
 
 use Illuminate\Database\Eloquent\Model;
-use Someline\Model\Observers\BaseModelObserver;
+use Opensmarty\Model\Observers\BaseModelObserver;
 
 /**
  * Whenever a new model is saved for the first time,

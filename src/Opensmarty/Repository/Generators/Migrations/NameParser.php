@@ -1,9 +1,9 @@
 <?php
-namespace Someline\Repository\Generators\Migrations;
+namespace Opensmarty\Repository\Generators\Migrations;
 
 /**
  * Class NameParser
- * @package Someline\Repository\Generators\Migrations
+ * @package Opensmarty\Repository\Generators\Migrations
  */
 class NameParser
 {

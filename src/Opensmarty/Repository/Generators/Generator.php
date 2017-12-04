@@ -1,6 +1,6 @@
 <?php
 
-namespace Someline\Repository\Generators;
+namespace Opensmarty\Repository\Generators;
 
 use Illuminate\Console\DetectsApplicationNamespace;
 use Illuminate\Filesystem\Filesystem;

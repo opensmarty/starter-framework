@@ -1,10 +1,10 @@
 <?php
 /**
- * Created for someline-starter.
- * User: Libern
+ * Created for opensmarty-starter.
+ * User: Nicolas Wan
  */
 
-namespace Someline\Api\Auth\Provider;
+namespace Opensmarty\Api\Auth\Provider;
 
 
 class OAuth2 extends \Dingo\Api\Auth\Provider\OAuth2
